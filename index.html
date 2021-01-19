@@ -1,3 +1,13 @@
+
+
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <title>Portfolio</title> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <style type="text/css">
   
   
@@ -11,41 +21,7 @@ body {
   margin: 0;
   background:linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff)
 }
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-}
 
-.image-card {
-  width: var(--size);
-  height: var(--size);
-  border-radius: var(--radius);
-  position: relative;
-  background-size: cover;
-  margin: calc(var(--size) * 20 / 100);
-}
-.image-card:before {
-  content: "";
-  position: absolute;
-  width: 90%;
-  height: 100%;
-  background-image: inherit;
-  background-size: cover;
-  border-radius: var(--radius);
-  z-index: -1;
-  filter: blur(10px);
-  opacity: 0.6;
-  left: 50%;
-  transform: translate(-50%, 10%);
-}
-
-  h2{
-  color:#FFFFFF}
 .container {
   width: var(--screen-width);
   height: var(--screen-height);
@@ -54,15 +30,46 @@ main {
 }
 </style>
 
+</head>
 
+<body>
 <div class="container">
-
-<main>
-  <div class="image-card" style="background-image: url('https://avatars2.githubusercontent.com/u/42272869?s=96&v=4')">
+  <div class="wrapper">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="https://miro.medium.com/fit/c/262/262/2*k0Yn_2nImVkr3YwLeH8DWQ.jpeg" alt="">
+      </div>
+    </div>
+  
+    <div class="name">Gautam Parmar</div>
+    <div class="about">Software Engineer</div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/gautamkparmar/" class="fb"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/@Gautamparmar20" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://gautammistry.medium.com/" class="yt"><i class="fab fa-medium"></i></a>
+      <a href="https://www.uplabs.com/gautamparmar" class="yt"><i class="fab fa-ups"></i></a>
+    </div>
+    <div class="buttons">
+      <button onClick="location.href = 'mailto:gautammistry48@gmail.com';">Message For Resume</button>
+    </div>
+    <div class="social-share">
+      <div class="row">
+        <i class="far fa-heart"></i>
+        <i class="icon-2 fas fa-heart"></i>
+        <span>.Net</span>
+      </div>
+      <div class="row">
+        <i class="far fa-heart"></i>
+        <i class="icon-2 fas fa-heart"></i>
+        <span>Android</span>
+      </div>
+ <div class="row">
+        <i class="far fa-heart"></i>
+        <i class="icon-2 fas fa-heart"></i>
+        <span>Python</span>
+      </div>
+    </div>
   </div>
- <h2>Comming Soon</h2> 
-  <pre>   |  portfolio is under construction</pre>
-  </div>
-</main>
+</body>
+</html>
 
-</div>
